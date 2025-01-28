@@ -1,12 +1,13 @@
+import Navbar from "@/components/navbar"
+import Hero from "./Hero"
 
-
-
-export default function LandingPage(){ 
-
-    return ( 
-
-        <div className="h-screen w-full flex flex-col justify-center items-center bg-[#101010]">
-                    
-        </div>
-    )
+export default function LandingPage() {
+  return (
+    <>
+      <Navbar  />
+      <div className="min-h-screen px-16 py-12">
+        <Hero />
+      </div>
+    </>
+  )
 }
